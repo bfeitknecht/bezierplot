@@ -61,7 +61,7 @@ local function round(num, decimals)
 	end
 end
 
--- check if a point (x,y) satisfies xmin <= x <= xmax and ymin <= < <= ymax
+-- check if a point (x,y) satisfies xmin <= x <= xmax and ymin <= y <= ymax
 local function is_in_window(x,y,xmin,xmax,ymin,ymax)
 	if x >= xmin and x <= xmax and y >= ymin and y <= ymax then
 		return true
